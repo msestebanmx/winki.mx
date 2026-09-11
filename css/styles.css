@@ -436,8 +436,7 @@ a {
     }
 
     .product-grid,
-    .policy-grid,
-    .policy-grid-2 {
+    .policy-grid {
         grid-template-columns: 1fr;
     }
 
