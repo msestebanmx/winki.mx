@@ -309,29 +309,11 @@ a {
     gap: 20px;
 }
 
-.policy-grid-2{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-}
-
-.policy-item,
-.policy-item-2 {
+.policy-item {
     padding: 25px;
     border: 1px solid var(--border);
     border-radius: var(--radius);
     background: var(--background);
-}
-.policy-item-2{
-    color: #c30000; ;
-}
-.policy-item-2 p{
-    color: var(--muted);
-}
-.policy-link :hover{
-    color: #c30000;
-    transition: 0.2s;
-    
 }
 
 .policy-item h3 {
